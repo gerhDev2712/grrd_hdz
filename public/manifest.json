@@ -1,0 +1,21 @@
+{
+    "short_name": "grrd_hdz",
+    "name": "grrd_hdz App",
+    "icons": [
+      {
+        "src": "img/android-chrome-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "img/android-chrome-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/?utm_source=a2hs",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#FFFFFF"
+  }
