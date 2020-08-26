@@ -2,7 +2,7 @@
   <div id="Navbar" class="">
     <!--Navigation-->
     
-    <ul class="row m-0 text-center nav-style nav fixed-bottom ">
+    <ul class="row m-0 text-center mt-5 nav-style nav fixed-bottom ">
       <li class="col-3 p-0 align-self-center">
         <router-link
           to="/"
