@@ -6,9 +6,9 @@
         <div class="row justify-content-around m-0">
 
             <!--PC-->
-            <mq-layout mq="md+" class="col-4 my-3" v-for="item in bienvenida" :key="item">
+            <mq-layout mq="md+" class="col-6 my-3" v-for="item in welcome" :key="item">
                 <div class="">
-                    <h3 class="h3 text-left d-none d-md-block">{{item.header}}</h3>
+                    <h3 class="h3 text-center d-none d-md-block">{{item.header}}</h3>
                 </div>
                 <Card
                     class=" mt-4"
@@ -26,7 +26,7 @@
             </mq-layout>
 
             <!--Mobile-->
-            <mq-layout :mq="['xs', 'sm']" class="col-12 my-4" v-for="item in bienvenida" :key="item">
+            <mq-layout :mq="['xs', 'sm']" class="col-12 my-4" v-for="item in welcome" :key="item">
                 <div class="">
                     <h3 class="h-4 text-center d-block d-md-none">{{item.header}}</h3>
                 </div>
@@ -63,7 +63,7 @@ export default {
     },
     data () {
         return {
-            bienvenida: [
+            welcome: [
                 {
                     setHeader: false,
                     setFooter: true,
@@ -80,19 +80,7 @@ export default {
                     setHeader: false,
                     setFooter: true,
                     setButtton: true,
-                    header: 'Desarrollo Web',
-                    title: 'Horario de atención: Lunes a Viernes de 8:00 a 18:00 hrs.',
-                    content:'El Call Center de la Facultad de Psicología de la UNAM brinda intervención psicológica gratuita por vía telefónica al público en general.',
-                    footer: 'Llamar a 5025 0855',
-                    link: '/',
-                    bg_color: 'bg-primary',
-                    text_color: 'text-white'
-                },
-                {
-                    setHeader: false,
-                    setFooter: true,
-                    setButtton: true,
-                    header: 'Desarrollo Web',
+                    header: 'Fotografía',
                     title: 'Horario de atención: Lunes a Viernes de 8:00 a 18:00 hrs.',
                     content:'El Call Center de la Facultad de Psicología de la UNAM brinda intervención psicológica gratuita por vía telefónica al público en general.',
                     footer: 'Llamar a 5025 0855',

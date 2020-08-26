@@ -40,7 +40,7 @@ export default {
         Footer: String,
         bgColor: String,
         textColor: String,
-        enlace: Number
+        link: String
     }
 }
 </script>
