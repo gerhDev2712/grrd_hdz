@@ -68,7 +68,7 @@ export default {
                     setHeader: false,
                     setFooter: true,
                     setButtton: true,
-                    header: 'Desarrollo Web',
+                    header: 'Service Workwer Offline',
                     title: 'Horario de atención: Lunes a Viernes de 8:00 a 18:00 hrs.',
                     content:'El Call Center de la Facultad de Psicología de la UNAM brinda intervención psicológica gratuita por vía telefónica al público en general.',
                     footer: 'Llamar a 5025 0855',
