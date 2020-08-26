@@ -119,8 +119,8 @@
     </mq-layout>
 
     <!--Title-->
-    <h1 class="display-1 text-center mt-3 d-none d-md-block">grrd_hdz</h1>
-    <h1 class="display-3 text-center mt-3 d-block d-md-none">grrd_hdz</h1>
+    <h1 class="display-1 text-center mt-3 d-none d-md-block">@grrd_hdz</h1>
+    <h1 class="display-3 text-center mt-3 d-block d-md-none">@grrd_hdz</h1>
     
 
   </div>
