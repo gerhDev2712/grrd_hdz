@@ -1,13 +1,10 @@
-// vue.config.js
 module.exports = {
     // ...other vue-cli plugin options...
     pwa: {
-        // configure the workbox plugin
-        workboxPluginMode: 'InjectManifest',
-        workboxOptions: {
-            // swSrc is required in InjectManifest mode.
-            swSrc: 'public/service-worker.js',
-            // ...other Workbox options...
-        }
+      themeColor: '#0D1440',
+      msTileColor: '#0D1440',
+      iconPaths: {
+        msTileImage: 'img/icons/mstile-150x150.png'
+      }
     }
-}
+  }
