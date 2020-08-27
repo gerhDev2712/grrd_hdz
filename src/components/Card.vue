@@ -3,23 +3,23 @@
     <div class="card  mt-3" :class="[bgColor, textColor]">
         <div class="" v-if="isHeader">
             <div class="card-header">
-                {{Title}}
+                {{title}}
             </div>
         </div>
         <div class="card-body">
             <p class="text-justify">
-                {{Content}}
+                {{content}}
             </p>
         </div>
         <div class="" v-if="isFooter">
             <div class="card-footer">
                 <div class="" v-if="isButton">
                     <router-link :to='enlace' class="btn btn-info btn-block">
-                        {{Footer}}
+                        {{footer}}
                     </router-link>
                 </div>
                 <div class="" v-else>
-                    {{Footer}}
+                    {{footer}}
                 </div>
             </div>
         </div>
@@ -35,9 +35,9 @@ export default {
         isHeader: Boolean,
         isFooter: Boolean,
         isButton: Boolean,
-        Title: String,
-        Content: String,
-        Footer: String,
+        title: String,
+        content: String,
+        footer: String,
         bgColor: String,
         textColor: String,
         link: String
